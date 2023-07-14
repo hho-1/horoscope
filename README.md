@@ -1,15 +1,9 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
 # Project-001 : Horoscope App (RP-01)
 
 ## Description
 
 Project aims to create a horoscope app.
-
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
@@ -42,10 +36,6 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-https://react-horoscope-app.netlify.app/
-
 ## Objective
 
 Build a Horoscope App using ReactJS.
@@ -76,9 +66,3 @@ Build a Horoscope App using ReactJS.
 
 - Step 5: Add project gif to your project and README.md file.
 
-## Notes
-
-- You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
-# horoscope
