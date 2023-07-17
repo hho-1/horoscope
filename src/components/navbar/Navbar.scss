@@ -1,35 +1,47 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
 .navbar{
-    align-items: center;
-    background-color: #cd890c;
+    background-color: $cardNavBgColor;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 1rem;
     position: fixed;
-    top: 0;
     width: 100%;
+    top: 0;
     z-index: 4;
+    .links{
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: flex-end;
+        gap: 2%;
+        a{
+            color: $secondaryColor;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            padding: 0.5rem;
+            &:hover{
+                background-color: $secondaryColor;
+                color:$cardNavBgColor;
+            }
+        }
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
 
-.left-nav img {
-    height: 100px;
-    width: 100px;
+@include media-xsm{
+    .links{
+        flex-direction: column;
+    }
 }
 
-.right-nav {
-    display: flex;
-    font-size: 1.5rem;
-    gap: 2%;
-    justify-content: flex-end;
-}
-
-.right-nav a {
-    border-radius: 5px;
-    color: #171b20;
-    padding: 0.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.right-nav a:hover{
-    background-color: #171b20;
-    color: #cd890c;
+@include media-lg{
+    .links{
+        flex-direction: row;
+    }
 }

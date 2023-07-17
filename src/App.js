@@ -1,16 +1,14 @@
-
-import "./App.scss"
+import "./App.scss";
 import Header from "./components/header/Header";
-import Card from "./components/main/Card";
-import Navbar from './components/navbar/Navbar'
-import data from './helper/data'
+import Main from "./components/main/Main";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Header/>
-      <Card veri = {data}/>
+      <Navbar />
+      <Header />
+      <Main />
     </div>
   );
 }
