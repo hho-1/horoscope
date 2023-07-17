@@ -1,5 +1,5 @@
 
-# Project-001 : Horoscope App (RP-01)
+# Horoscope App
 
 ## Description
 
